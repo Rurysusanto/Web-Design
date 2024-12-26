@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles_Feedback Form.css" />
+  </head>
+  <body>
+    <h1 id="title">How Did We Do?<br>
+      KSPM FEB 2023/2024 Internal Feedback Form
+    </h1>
+    <p id="description">Please fill out (by KSPM FEB Alumni) this form to support the growth of our capital market community</p>
+    <form id="survey-form" method="post">
+    <fieldset>
+      <legend>Assestor Profile</legend><br>
+      <label id="name-label"> Assestor Name <input id="name" type="text" required placeholder="name"/></label><br><br>
+      <label id="email-label"> Assestor Email <input id="email" type="email" required placeholder="email"/></label><br><br>
+      <label id="number-label"> Assestor Last Year <input id="number" type="number" min="2020" max="2024"placeholder="year"/></label><br><br>
+      <label id="division-label"> Assestor Last Division </label>
+      <select id="dropdown">
+        <option>Choose your division</option>
+        <option>Human Resource Development</option>
+        <option>Public Relation</option>
+        <option>Education</option>
+        <option>Funding</option>
+        <option>System Information Management</option>
+        <option>Pejabat Teras</option>
+      </select><br><br>
+      <label id="division-label"> Assestor Last Position </label>
+      <select id="dropdown">
+        <option>Choose your position</option>
+        <option>Director</option>
+        <option>Vice Director</option>
+        <option>1st Secretary</option>
+        <option>2nd Secretary</option>
+        <option>1st Treasury</option>
+        <option>2nd Treasury</option>
+        <option>Head of Division</option>
+        <option>Staff of Division</option>
+      </select><br>
+    </fieldset>
+    <Fieldset>
+      <legend>Assessment</legend><br>
+      <label id="division-label"> Assessed Division </label>
+      <select id="dropdown">
+        <option>Choose the division</option>
+        <option>Human Resource Development</option>
+        <option>Public Relation</option>
+        <option>Education</option>
+        <option>Funding</option>
+        <option>System Information Management</option>
+        <option>Pejabat Teras</option>
+      </select><br><br>
+      <label id="Improvement-label"> Things to Improve: </label><br>
+      <label for="communication">
+        <input type="checkbox" id="communication" value="communication"/> 
+          Communication 
+      </label><br>
+      <label for="bounding">
+        <input type="checkbox" id="bounding" value="bounding"/> 
+        Bounding 
+      </label><br>
+      <label for="work-programs">
+        <input type="checkbox" id="work-programs" value="work-programs"/> 
+        Work Programs 
+      </label><br>
+      <label for="presence">
+        <input type="checkbox" id="presence" value="presence"/> 
+        Presence 
+      </label><br>
+      <label for="jobdesk-execution"><input type="checkbox" id="jobdesk-execution" value="jobdesk-execution"/> 
+        Jobdesk Execution 
+      </label><br>
+    </fieldset>
+    <fieldset>
+      <legend>Division Performance Satisfaction</legend>
+      <label>In-Out Communication:</label>
+      <br>
+      <label for="comm-dissatisfied">
+        <input type="radio" id="comm-dissatisfied" name="communication" value="dissatisfied"/>
+        Dissatisfied
+      </label><br>
+      <label for="comm-less-satisfied">
+        <input type="radio" id="comm-less-satisfied" name="communication" value="less-satisfied"/>
+        Less Satisfied
+      </label><br>
+      <label for="comm-normal">
+        <input type="radio" id="comm-normal" name="communication" value="normal"/>
+        Normal
+      </label><br>
+      <label for="comm-satisfied">
+        <input type="radio" id="comm-satisfied" name="communication" value="satisfied"/>
+        Satisfied
+      </label><br>
+      <label for="comm-highly-satisfied">
+        <input type="radio" id="comm-highly-satisfied" name="communication" value="highly-satisfied"/>
+        Highly Satisfied
+      </label><br>
+      <label>Inside Bounding:</label>
+      <br>
+      <label for="bound-dissatisfied">
+        <input type="radio" id="bound-dissatisfied" name="bounding" value="dissatisfied"/>
+        Dissatisfied
+      </label><br>
+      <label for="bound-less-satisfied">
+        <input type="radio" id="bound-less-satisfied" name="bounding" value="less-satisfied"/>
+        Less Satisfied
+      </label><br>
+      <label for="bound-normal">
+        <input type="radio" id="bound-normal" name="bounding" value="normal"/>
+        Normal
+      </label><br>
+      <label for="bound-satisfied">
+        <input type="radio" id="bound-satisfied" name="bounding" value="satisfied"/>
+        Satisfied
+      </label><br>
+      <label for="bound-highly-satisfied">
+        <input type="radio" id="bound-highly-satisfied" name="bounding" value="highly-satisfied"/>
+        Highly Satisfied
+      </label><br>
+      <label>Work Programs:</label>
+      <br>
+      <label for="work-dissatisfied">
+        <input type="radio" id="work-dissatisfied" name="work-programs" value="dissatisfied"/>
+        Dissatisfied
+      </label><br>
+      <label for="work-less-satisfied">
+        <input type="radio" id="work-less-satisfied" name="work-programs" value="less-satisfied"/>
+        Less Satisfied
+      </label><br>
+      <label for="work-normal">
+        <input type="radio" id="work-normal" name="work-programs" value="normal"/>
+        Normal
+      </label><br>
+      <label for="work-satisfied">
+        <input type="radio" id="work-satisfied" name="work-programs" value="satisfied"/>
+        Satisfied
+      </label><br>
+      <label for="work-highly-satisfied">
+        <input type="radio" id="work-highly-satisfied" name="work-programs" value="highly-satisfied"/>
+        Highly Satisfied
+      </label><br>
+      <label>Presence:</label>
+      <br>
+      <label for="presence-dissatisfied">
+        <input type="radio" id="presence-dissatisfied" name="presence" value="dissatisfied"/>
+        Dissatisfied
+      </label><br>
+      <label for="presence-less-satisfied">
+        <input type="radio" id="presence-less-satisfied" name="presence" value="less-satisfied"/>
+        Less Satisfied
+      </label><br>
+      <label for="presence-normal">
+        <input type="radio" id="presence-normal" name="presence" value="normal"/>
+        Normal
+      </label><br>
+      <label for="presence-satisfied">
+        <input type="radio" id="presence-satisfied" name="presence" value="satisfied"/>
+        Satisfied
+      </label><br>
+      <label for="presence-highly-satisfied">
+        <input type="radio" id="presence-highly-satisfied" name="presence" value="highly-satisfied"/>
+        Highly Satisfied
+      </label><br>
+      <label>Jobdesk Execution:</label>
+      <br>
+      <label for="jobdesk-dissatisfied">
+        <input type="radio" id="jobdesk-dissatisfied" name="jobdesk-execution" value="dissatisfied"/>
+        Dissatisfied
+      </label><br>
+      <label for="jobdesk-less-satisfied">
+        <input type="radio" id="jobdesk-less-satisfied" name="jobdesk-execution" value="less-satisfied"/>
+        Less Satisfied
+      </label><br>
+      <label for="jobdesk-normal">
+        <input type="radio" id="jobdesk-normal" name="jobdesk-execution" value="normal"/>
+        Normal
+      </label><br>
+      <label for="jobdesk-satisfied">
+        <input type="radio" id="jobdesk-satisfied" name="jobdesk-execution" value="satisfied"/>
+        Satisfied
+      </label><br>
+      <label for="jobdesk-highly-satisfied">
+        <input type="radio" id="jobdesk-highly-satisfied" name="jobdesk-execution" value="highly-satisfied"/>
+        Highly Satisfied
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Share Your Thought or Recommendation with us</legend>
+      <textarea placeholder="Type something here..."></textarea>
+    </fieldset>
+    <br>
+  <input type="submit" id="submit" value="Submit"/>
+</form>
+</body>
+</html>
